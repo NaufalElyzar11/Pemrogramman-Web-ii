@@ -1,0 +1,15 @@
+CRITICAL - 2025-05-22 12:47:56 --> ErrorException: Undefined variable $praktikan
+[Method: GET, Route: profil]
+in APPPATH\Views\profil.php on line 15.
+ 1 APPPATH\Views\profil.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $praktikan', 'C:\\laragon\\www\\Modul 6\\app\\Views\\profil.php', 15)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\laragon\\www\\Modul 6\\app\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->profil()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\laragon\\www\\Modul 6\\public\\index.php')
